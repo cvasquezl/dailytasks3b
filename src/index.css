@@ -1,0 +1,98 @@
+body{
+    font-family: 'Patrick Hand', cursive;
+    background-image: url('./image/papellustre.jpg');
+    background-size: 100%;
+}
+@media (max-width:764px) {
+    body{
+        background-size: 500px 670px;
+    }
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+    display: flex;
+
+}
+.navbar{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: white;
+    border: #7F7C82 5px solid;
+    height: 80px;
+    width: 70%;
+}
+.navbar .container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.navbar .container-fluid h1{
+    padding: 0 15px 0 15px; 
+}
+.boton1{
+    margin: 15px;
+    height: 50px;
+}
+h3{
+    color:#7F7C82;
+    font-weight: 150px;
+    -webkit-text-stroke: 0.5px rgb(240, 251, 252);
+    font-size: xx-large;
+}
+h1, h2{
+    color:#F2F2F2;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 200px;
+
+    
+};
+
+
+.form-control-border{
+    border: #7F7C82 3px solid;
+}
+.form-label{
+    font-weight: bold;
+}
+.box{
+    border: #7F7C82 15px solid;
+    background-color: #ffff;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.box2{
+    border:white 8px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+#flotante{
+    position:absolute;
+    bottom: 25px;
+    left:0px;
+    
+}
+.flotante2{
+    position:absolute;
+    top: 100px;
+    left: 10px;
+}
+.loading{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.enlaces{
+    color: antiquewhite;
+    text-decoration: none;
+}
